@@ -4,78 +4,36 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='footer-container'>
-     <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
+  <>
+        <footer className="footer text-center">
+            <div className="container">
+                <div className="row">
+                   
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">Niko parrilla</h4>
+                        <p className="lead mb-0">
+                            Carne a la parrilla
+                            <br />
+                            (+57)3015968374
+                        </p>
+                    </div>
+                   
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">Encuéntranos en redes sociales</h4>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/nikoparrillaoficial/"><i className="fab fa-fw fa-instagram"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </footer>
+        
+        <div className="copyright py-4 text-center text-white">
+            <div className="container"><small>Copyright &copy; Your Website 2023</small></div>
         </div>
-      
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              ESME
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <small class='website-rights'>ESME © 2023</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
-        </div>
-      </section>
-    </div>
+    </>
   )
 }
 

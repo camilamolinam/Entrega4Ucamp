@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import './navegacion.css'
-import logo from '../../img/logo.png'
+import logo from '../../img/logoniko.png'
 import * as Icon from 'react-icons/fa'
 function Navegacion() {
 const [click, setClick] = useState(false);

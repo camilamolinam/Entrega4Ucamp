@@ -20,7 +20,7 @@ function Reservas() {
         /*Guardar la reservacion*/
         event.preventDefault();
         addDoc(collection(db, 'reserva'), form).
-            then(resp => swal("Oops!", "Something went wrong!", "error")).
+            then(resp => swal("Su reserva quedó guardada")).
             catch(err => swal("Oops!", "Something went wrong!", "error"))
     }
 
@@ -69,7 +69,7 @@ function Reservas() {
                     </Form>
                 </div>
                 <div className='Column'>
-                    <table className='tabla-reserva'>
+                    <table responsive="lg" className='tabla-reserva'>
                         <thead>
                             <tr>
                                 <th>Nombre</th>

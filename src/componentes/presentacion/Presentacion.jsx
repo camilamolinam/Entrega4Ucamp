@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import './presentacion.css'
-import img1 from '../../img/pexels-chan-walrus-958545.jpg'
-import img2 from '../../img/pexels-kristina-paukshtite-1146760.jpg'
-import img3 from '../../img/pexels-lumn-604969.jpg'
+import img1 from '../../img/Shoot-Niko Parrilla-106.jpg'
+import img2 from '../../img/Shoot-Niko Parrilla-149.jpg'
+import img3 from '../../img/Shoot-Niko Parrilla-184.jpg'
 
 
 function Presentacion() {
@@ -18,9 +18,7 @@ function Presentacion() {
 
                         <Carousel.Caption>
 
-                            <h3>First slide label</h3>
-
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p>Punta de anca</p>
 
                         </Carousel.Caption>
 
@@ -32,9 +30,7 @@ function Presentacion() {
 
                         <Carousel.Caption>
 
-                            <h3>Second slide label</h3>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Pollo</p>
 
                         </Carousel.Caption>
 
@@ -46,13 +42,7 @@ function Presentacion() {
 
                         <Carousel.Caption>
 
-                            <h3>Third slide label</h3>
-
-                            <p>
-
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-
-                            </p>
+                            <p> Churrasco</p>
 
                         </Carousel.Caption>
 

@@ -4,9 +4,9 @@
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    border-radius: 25px;
     padding: 10px;
-    background-color: aliceblue;
+    background:url("https://img.freepik.com/foto-gratis/fondo-textura-madera_53876-14865.jpg?w=1800&t=st=1683940989~exp=1683941589~hmac=02fe72087f164b9a4a2701e321e26bf52198271a932f128bfa86685eff85845e") no-repeat center
+    center / cover;
 }
 .formContent, .Column{
     margin-top: 40px;
@@ -15,9 +15,10 @@
     border: 2px solid black;
     padding: 35px;
     border-radius: 30px;
-    background-color: aliceblue;
+    background-color:white;
     display: flex;
     flex-direction: column;
+
 }
 
 .tabla-reserva{
@@ -29,12 +30,13 @@
 }
 
 .tabla-reserva td, .tabla-reserva th {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     padding: 10px;
+    background-color: white
   }
 
-.tabla-reserva tr:nth-child(even){
-    background-color: #f2f2f2;
+.tabla-reserva tr:nth-child(){
+    background-color: white
 }
 
 .tabla-reserva tr:hover {
@@ -45,6 +47,6 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: rgb(8, 138, 237);
+  background-color: rgb(6, 6, 6);
   color: whitesmoke;
 }
