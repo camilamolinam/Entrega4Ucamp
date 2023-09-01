@@ -1,0 +1,11 @@
+.contenedor-home{
+
+    display: flex;
+
+    justify-content: center;
+
+    /* border: solid blue; */
+
+    padding: 5% 10%;
+
+}

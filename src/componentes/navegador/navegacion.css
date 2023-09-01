@@ -1,0 +1,38 @@
+
+.navegador{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+position: sticky;
+border: none;
+}
+
+.contendor{
+    background-color: rgb(62, 108, 71);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 0 24px;
+}
+.navMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.link-menu{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.logo-restaurant{
+  width: 50px;  
+}
