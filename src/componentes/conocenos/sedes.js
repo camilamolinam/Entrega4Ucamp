@@ -27,13 +27,13 @@ export const sedes = [
     {
         img: sedevegas,
         alt: 'sedevegas',
-        Nombre: 'Sede las vegas',
+        Nombre: 'Sede Las Vegas',
         Ubicación: "https://goo.gl/maps/Wq8CfxFumUFqx28T9"
     },
     {
         img: sedecampestre,
         alt: 'sedecampestre',
-        Nombre: 'Sede campestre',
+        Nombre: 'Sede Campestre',
         Ubicación: "https://goo.gl/maps/iHwzSoPYvf4cXCVD8"
     },
     {

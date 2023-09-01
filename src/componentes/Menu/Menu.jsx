@@ -14,14 +14,14 @@ function Menu() {
        
         {productos.map( (producto, index) => {
           return(
-            <Card className='card-menu' key={index} style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={producto.img} />
+            <Card className='card-menu' key={index} style={{ width: '20rem', backgroundColor:'black',color:'white'}}>
+            <Card.Img variant="top" src={producto.img} style={{width:'20rem',height:'15rem'}}/>
             <Card.Body>
               <Card.Title>{producto.nombre}</Card.Title>
               <Card.Text>
               {producto.descripcion}
               </Card.Text>
-              <Button variant="primary">{producto.precio}</Button>
+              <Button variant="outline-light">{producto.precio}</Button>
             </Card.Body>
           </Card>
           )

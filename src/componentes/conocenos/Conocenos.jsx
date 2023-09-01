@@ -15,11 +15,11 @@ function conocenos() {
        
         {sedes.map( (sede, index) => {
           return(
-            <Card className='card-menu' key={index} style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={sede.img} />
-            <Card.Body>
+            <Card className='card-menu' key={index} style={{ width: '20rem', backgroundColor:'black',color:'white'}}>
+            <Card.Img variant="top" src={sede.img} style={{width:'20rem',height:'20rem'}} />
+            <Card.Body style={{height:'4rem'}} >
               <Card.Title>{sede.Nombre}</Card.Title>
-              <Button variant="primary" href={sede.Ubicación}>Ir</Button>
+              <Button variant="outline-light" href={sede.Ubicación}>Ir</Button>
             </Card.Body>
           </Card>
           )
