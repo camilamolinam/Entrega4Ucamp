@@ -63,7 +63,7 @@ function Reservas() {
                         <Form.Text className="text-muted">
                             Tu informacion es privada y no sera compartida o reutilizada.
                         </Form.Text>
-                        <Button type="submit" className='formButton'>
+                        <Button type="submit" className='formButton' variant="outline-light">
                             Submit
                         </Button>
                     </Form>
