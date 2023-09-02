@@ -42,4 +42,6 @@ export const sedes = [
         Nombre: 'Sede Peregrino',
         Ubicación: "https://goo.gl/maps/KccKeCtpf3rfJrSd7"
     },
+  
+
 ]
