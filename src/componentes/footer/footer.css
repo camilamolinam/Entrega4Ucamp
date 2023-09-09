@@ -156,6 +156,10 @@
     .social-media-wrap {
       flex-direction: column;
     }
+    .logo {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   
   @media screen and (max-width: 768px) {

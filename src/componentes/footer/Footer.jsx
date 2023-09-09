@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from 'react-router-dom'
+import logo from '../../img/logoniko.png'
 
 function Footer() {
   return (
@@ -10,9 +11,12 @@ function Footer() {
                 <div className="row">
                    
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Niko parrilla</h4>
+                    <img src={logo} alt="imagen" className='logo'/>
+                    </div>
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">CARNE A LA PARRILLA</h4>
                         <p className="lead mb-0">
-                            Carne a la parrilla
+                            Contacto 
                             <br />
                             (+57)3015968374
                         </p>
